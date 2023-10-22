@@ -1,0 +1,463 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-22T01:12:39.884Z",
+        "line": 2,
+        "name": "Login success on saucedemo",
+        "description": "",
+        "id": "bincang-qa-login-test;login-success-on-saucedemo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6534880000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178479200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Input username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136357400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6755238100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Should success login and redirected to homepage",
+            "match": {
+              "location": "StepDef.Login.shouldSuccessLoginAndRedirectedToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-22T01:12:53.575Z",
+        "line": 15,
+        "name": "Login success on saucedemo using scenario outline",
+        "description": "",
+        "id": "bincang-qa-login-test;login-success-on-saucedemo-using-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5361083800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196776200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Input username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105279900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6695210500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Should success login and redirected to homepage",
+            "match": {
+              "location": "StepDef.Login.shouldSuccessLoginAndRedirectedToHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-22T01:13:05.954Z",
+        "line": 24,
+        "name": "Login failed on saucedemo with invalid password",
+        "description": "",
+        "id": "bincang-qa-login-test;login-failed-on-saucedemo-with-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5333028500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164043400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Input username \"standard_user\" and password \"xxxyyyzzzz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"xxxyyyzzzz\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68179700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6715806200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Failed login and showing message",
+            "match": {
+              "location": "StepDef.Login.failedLoginAndShowingMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-22T01:13:18.250Z",
+        "line": 33,
+        "name": "Login failed on saucedemo with invalid usernama",
+        "description": "",
+        "id": "bincang-qa-login-test;login-failed-on-saucedemo-with-invalid-usernama;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6211784900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182333100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Input username \"adminkece\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adminkece\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65173200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6740871800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Failed login and showing message",
+            "match": {
+              "location": "StepDef.Login.failedLoginAndShowingMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-22T01:13:31.459Z",
+        "line": 42,
+        "name": "Login failed on saucedemo with empty username",
+        "description": "",
+        "id": "bincang-qa-login-test;login-failed-on-saucedemo-with-empty-username;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5493240100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198459900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Input username \"\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59158500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6654463900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Failed login and showing message",
+            "match": {
+              "location": "StepDef.Login.failedLoginAndShowingMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-22T01:13:43.876Z",
+        "line": 51,
+        "name": "Login failed on saucedemo with empty password",
+        "description": "",
+        "id": "bincang-qa-login-test;login-failed-on-saucedemo-with-empty-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5715522200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Open web url \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDef.Login.openWebUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 145734200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Input username \"standard_user\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDef.Login.inputUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59158100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.Login.clickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6648407200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Failed login and showing message",
+            "match": {
+              "location": "StepDef.Login.failedLoginAndShowingMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bincang QA Login test",
+    "description": "",
+    "id": "bincang-qa-login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
